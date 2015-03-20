@@ -39,7 +39,7 @@ When other users in the web of trust sign a user's key, they certify that they h
 
 To ameliorate this, UIDs in the Signet system do not include the user's name, but instead include only the email address: 
 
-    jdoe1109@example.com
+    <jdoe1109@example.com>
 
 In a later section we will go into more depth about identity certification, but for now, we note that certifying a UID in this form requires certifying only that the key owner controls the email address in question; no assertion needs to be made about the user's name or personal information. 
 
